@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search results</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+  </head>
+  <body>
+
+    
+    <div id="navbar">
+      <a href="index.html"><div>News App</div></a>
+      <div><input oninput="searchNews()"type="text"id="search_input"></div>
+    </div>
+    <div id="sidebar">
+      <div id="in">India</div>
+      <div id="us">Usa</div>
+      <div id="ch">China</div>
+      <div id="uk">Uk</div>
+      <div id="nz">New zeland</div>
+    </div>
+    <!-- Same navbar with same functionality  -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+
+
+      <div id="results">
+      <div class="news"></div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/search.js"></script>
